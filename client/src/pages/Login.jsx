@@ -18,7 +18,7 @@ export default function Login() {
       localStorage.setItem("token", data.token);
       toast.success("Logged in successfully ✅");
 
-      navigate("/");   // ✅ dashboard route
+      navigate("/dashboard");   // ✅ dashboard route
     } catch (err) {
       toast.error(err.response?.data?.message || "Login failed ❌");
     }

@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Register from "./pages/Register";
+import FirstPage from "./pages/FirstPage";
 import Login from "./pages/Login";
+import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { ToastContainer } from "react-toastify";
@@ -10,9 +11,16 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          {/* Default route */}
+          {/* Front Page */}
+          <Route path="/" element={<FirstPage />} />
+
+          {/* Auth */}
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+
+          {/* Dashboard */}
           <Route
-            path="/"
+            path="/dashboard"
             element={
               <ProtectedRoute>
                 <Dashboard />
@@ -20,15 +28,11 @@ function App() {
             }
           />
 
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-
-          {/* Agar galat URL aaye */}
+          {/* Fallback */}
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
 
-      {/* Toast alerts */}
       <ToastContainer position="bottom-right" autoClose={2500} />
     </>
   );
