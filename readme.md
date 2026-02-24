@@ -66,8 +66,8 @@ https://drive.google.com/file/d/1n299jrrh5glPv3-xg0Ja85tBl7kUcQaS/view?usp=shari
 ## 📸 Screenshots
 
 ### 🔐 Authentication (Login / Register)
-<img width="450" height="700" alt="Screenshot 2026-02-24 at 6 08 40 PM" src="https://github.com/user-attachments/assets/a1218d6d-29a9-4247-87a2-ed272c13d7ed" />
-<img width="450" height="700" alt="Screenshot 2026-02-24 at 6 08 49 PM" src="https://github.com/user-attachments/assets/48960c7e-9fac-4fec-b822-14a2356baa4b" />
+<img width="400" height="700" alt="Screenshot 2026-02-24 at 6 08 40 PM" src="https://github.com/user-attachments/assets/a1218d6d-29a9-4247-87a2-ed272c13d7ed" />
+<img width="400" height="700" alt="Screenshot 2026-02-24 at 6 08 49 PM" src="https://github.com/user-attachments/assets/48960c7e-9fac-4fec-b822-14a2356baa4b" />
 
 
 ### 📋 Dashboard (Todos UI)
@@ -75,8 +75,8 @@ https://drive.google.com/file/d/1n299jrrh5glPv3-xg0Ja85tBl7kUcQaS/view?usp=shari
 
 
 ### 🧪 Postman API Testing
-<img width="450" height="700" alt="Screenshot 2026-02-24 at 5 59 51 PM" src="https://github.com/user-attachments/assets/96641f35-86d3-49d1-9b9c-e110cd16f9ae" />
-<img width="450" height="700" alt="Screenshot 2026-02-24 at 6 00 18 PM" src="https://github.com/user-attachments/assets/b3113cb2-75a8-4335-8625-eb6489a5a3a7" />
+<img width="400" height="700" alt="Screenshot 2026-02-24 at 5 59 51 PM" src="https://github.com/user-attachments/assets/96641f35-86d3-49d1-9b9c-e110cd16f9ae" />
+<img width="400" height="700" alt="Screenshot 2026-02-24 at 6 00 18 PM" src="https://github.com/user-attachments/assets/b3113cb2-75a8-4335-8625-eb6489a5a3a7" />
 
 
 ---
